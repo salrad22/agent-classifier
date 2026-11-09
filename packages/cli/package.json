@@ -1,0 +1,14 @@
+{
+  "name": "@agent-classifier/cli",
+  "version": "0.0.1",
+  "description": "CLI for agent-classifier: classify commits and diffs, install the git post-commit hook.",
+  "type": "module",
+  "bin": {
+    "classify": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"no tests yet\" && exit 0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@agent-classifier/worker",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Cloudflare Worker that fronts the Clef model: keeps the API token server-side, caches by state hash, returns answers.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}

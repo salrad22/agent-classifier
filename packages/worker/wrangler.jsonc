@@ -1,0 +1,15 @@
+{
+  // Cloudflare Worker fronting the Clef decision model.
+  // Docs: https://developers.cloudflare.com/workers-ai/models/clef/
+  "name": "agent-classifier-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "ai": {
+    // Workers AI binding used to call @cf/cloudflare/clef
+    "binding": "AI"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
